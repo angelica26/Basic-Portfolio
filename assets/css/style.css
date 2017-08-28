@@ -1,7 +1,6 @@
 .container {
 width: 1200px;
 height: 850px;
-/*border: 1px solid black;*/
 position: relative;
 background: 
 }
@@ -105,12 +104,10 @@ h2 {
 }
 
 #line_decor {
-	width: 550px;
 	height: 3px;
 	background-color: #694274;
 	color: #694274;
 	border: 0 none;
-	text-align: left;
 	margin-bottom: 25px;
 	margin-left: 0;
 	margin-right: 0;
@@ -230,31 +227,29 @@ h2 {
 }
 
 label {
+
 	color: #000;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 22px;
-	padding: 3px;
+	padding-bottom: 10px;
+	display: block;
 }
 
-#name_input {
-	height: 25px;
-	
-}
-
-#email_input {
-	height: 25px;
-	
-}
-
-#message_input {
-	height: 25px;
-	
+#nameinput, #emailinput {
+	width: 580px;
+	line-height: 200%
 }
 
 button {
+	margin-top: 20px;
 	display: block;
-	margin-top: 50px;
-	
+	color: #fff;
+	background-color: #cb42f4;
+	font-size: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
 }
 
 #portfolio {
@@ -272,4 +267,97 @@ button {
 	box-sizing: border-box;
 	background-color: #fce8f8;
 	z-index: 9; 
+}
+
+form {
+	padding: 10px;
+	align-content: center;
+	width: 100%;
+}
+
+#hangman {
+	/*background-color: red;*/
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	z-index: 15;
+	top: 92px;
+}
+
+#hangmancap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 157px;
+	z-index: 20;
+
+}
+
+#rpg {
+	/*background-color: green;*/
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	right: 25px;
+	top: 92px;
+	z-index: 15;
+}
+
+#rpgcap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 157px;
+	z-index: 20;
+
+}
+
+#rutgers {
+	background-color: blue;
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	right: 25px;
+	top: 347px;
+	z-index: 15;
+}
+
+#rutgerscap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 155px;
+	z-index: 20;
+
+}
+
+#trivia {
+	/*background-color: pink;*/
+	width: 287.5px;
+	height: 230px;
+	position: absolute;
+	top: 347px;
+	z-index: 15;
+}
+
+#triviacap {
+	width: 287.5px;
+	height: 60px;
+	background-color: #694274;
+	position: absolute;
+	top: 155px;
+	z-index: 20;
+
+}
+
+.caption {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #fff;
 }
